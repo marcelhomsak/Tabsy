@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<?import java.util.ArrayList?>
+<AnchorPane fx:id="ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0" prefWidth="1144.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.marcelhomsak.tabsy.FirstWindowController">
+   <children>
+      <Button fx:id="a0" layoutX="0.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="b0" layoutX="22.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="c1" layoutX="44.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="d1" layoutX="66.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="e1" layoutX="88.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="f1" layoutX="110.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="g1" layoutX="132.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="a1" layoutX="154.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="b1" layoutX="176.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="c2" layoutX="198.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="d2" layoutX="220.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="e2" layoutX="242.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="f2" layoutX="264.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="g2" layoutX="286.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="a2" layoutX="308.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="b2" layoutX="330.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="c3" layoutX="352.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="d3" layoutX="374.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="e3" layoutX="396.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="f3" layoutX="418.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="g3" layoutX="440.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="a3" layoutX="462.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="b3" layoutX="484.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="c4" layoutX="506.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="d4" layoutX="528.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="e4" layoutX="550.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="f4" layoutX="572.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="g4" layoutX="594.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="a4" layoutX="616.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="b4" layoutX="638.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="c5" layoutX="660.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="d5" layoutX="682.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="e5" layoutX="704.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="f5" layoutX="726.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="g5" layoutX="748.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="a5" layoutX="770.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="b5" layoutX="792.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="c6" layoutX="814.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="d6" layoutX="836.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="e6" layoutX="858.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="f6" layoutX="880.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="g6" layoutX="902.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="a6" layoutX="924.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="b6" layoutX="946.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="c7" layoutX="968.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="d7" layoutX="990.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="e7" layoutX="1012.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="f7" layoutX="1034.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="g7" layoutX="1056.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="a7" layoutX="1078.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="b7" layoutX="1100.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+      <Button fx:id="c8" layoutX="1122.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="22.0" styleClass="white" />
+
+      <Button fx:id="ais0" layoutX="14" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="cis1" layoutX="58.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="dis1" layoutX="80.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="fis1" layoutX="124.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="gis1" layoutX="146.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="ais1" layoutX="168.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="cis2" layoutX="212.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="dis2" layoutX="234.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="fis2" layoutX="278.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="gis2" layoutX="300.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="ais2" layoutX="322.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="cis3" layoutX="366.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="dis3" layoutX="388.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="fis3" layoutX="432.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="gis3" layoutX="454.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="ais3" layoutX="476.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="cis4" layoutX="520.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="dis4" layoutX="542.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="fis4" layoutX="586.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="gis4" layoutX="608.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="ais4" layoutX="630.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="cis5" layoutX="674.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="dis5" layoutX="696.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="fis5" layoutX="740.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="gis5" layoutX="762.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="ais5" layoutX="784.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="cis6" layoutX="828.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="dis6" layoutX="850.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="fis6" layoutX="894.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="gis6" layoutX="916.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="ais6" layoutX="938.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="cis7" layoutX="982.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="dis7" layoutX="1004.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="fis7" layoutX="1048.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="gis7" layoutX="1070.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+      <Button fx:id="ais7" layoutX="1092.0" layoutY="20.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="13.0" styleClass="black" />
+
+      <fx:define>
+         <ArrayList fx:id="buttons">
+            <fx:reference source="a0" />
+            <fx:reference source="b0" />
+            <fx:reference source="c1" />
+            <fx:reference source="d1" />
+            <fx:reference source="e1" />
+            <fx:reference source="f1" />
+            <fx:reference source="g1" />
+            <fx:reference source="a1" />
+            <fx:reference source="b1" />
+            <fx:reference source="c2" />
+            <fx:reference source="d2" />
+            <fx:reference source="e2" />
+            <fx:reference source="f2" />
+            <fx:reference source="g2" />
+            <fx:reference source="a2" />
+            <fx:reference source="b2" />
+            <fx:reference source="c3" />
+            <fx:reference source="d3" />
+            <fx:reference source="e3" />
+            <fx:reference source="f3" />
+            <fx:reference source="g3" />
+            <fx:reference source="a3" />
+            <fx:reference source="b3" />
+            <fx:reference source="c4" />
+            <fx:reference source="d4" />
+            <fx:reference source="e4" />
+            <fx:reference source="f4" />
+            <fx:reference source="g4" />
+            <fx:reference source="a4" />
+            <fx:reference source="b4" />
+            <fx:reference source="c5" />
+            <fx:reference source="d5" />
+            <fx:reference source="e5" />
+            <fx:reference source="f5" />
+            <fx:reference source="g5" />
+            <fx:reference source="a5" />
+            <fx:reference source="b5" />
+            <fx:reference source="c6" />
+            <fx:reference source="d6" />
+            <fx:reference source="e6" />
+            <fx:reference source="f6" />
+            <fx:reference source="g6" />
+            <fx:reference source="a6" />
+            <fx:reference source="b6" />
+            <fx:reference source="c7" />
+            <fx:reference source="d7" />
+            <fx:reference source="e7" />
+            <fx:reference source="f7" />
+            <fx:reference source="g7" />
+            <fx:reference source="a7" />
+            <fx:reference source="b7" />
+            <fx:reference source="c8" />
+
+            <fx:reference source="ais0" />
+            <fx:reference source="cis1" />
+            <fx:reference source="dis1" />
+            <fx:reference source="fis1" />
+            <fx:reference source="gis1" />
+            <fx:reference source="ais1" />
+            <fx:reference source="cis2" />
+            <fx:reference source="dis2" />
+            <fx:reference source="fis2" />
+            <fx:reference source="gis2" />
+            <fx:reference source="ais2" />
+            <fx:reference source="cis3" />
+            <fx:reference source="dis3" />
+            <fx:reference source="fis3" />
+            <fx:reference source="gis3" />
+            <fx:reference source="ais3" />
+            <fx:reference source="cis4" />
+            <fx:reference source="dis4" />
+            <fx:reference source="fis4" />
+            <fx:reference source="gis4" />
+            <fx:reference source="ais4" />
+            <fx:reference source="cis5" />
+            <fx:reference source="dis5" />
+            <fx:reference source="fis5" />
+            <fx:reference source="gis5" />
+            <fx:reference source="ais5" />
+            <fx:reference source="cis6" />
+            <fx:reference source="dis6" />
+            <fx:reference source="fis6" />
+            <fx:reference source="gis6" />
+            <fx:reference source="ais6" />
+            <fx:reference source="cis7" />
+            <fx:reference source="dis7" />
+            <fx:reference source="fis7" />
+            <fx:reference source="gis7" />
+            <fx:reference source="ais7" />
+         </ArrayList>
+      </fx:define>
+
+      <ImageView fx:id="exitButton" fitHeight="22.0" fitWidth="22.0" layoutX="1122.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" styleClass="imageViewButton">
+         <image>
+            <Image url="@images/x.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="trashButton" fitHeight="22.0" fitWidth="22.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" styleClass="imageViewButton">
+         <image>
+            <Image url="@images/trash.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="goBackButton" fitHeight="22.0" fitWidth="22.0" layoutX="31.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" styleClass="imageViewButton">
+         <image>
+            <Image url="@images/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="computeButton" fitHeight="22.0" fitWidth="22.0" layoutX="65.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" styleClass="imageViewButton">
+         <image>
+            <Image url="@images/compute.png" />
+         </image>
+      </ImageView>
+      <Line endX="65.99998474121094" layoutX="184.0" startX="65.99998474121094" startY="20.0" />
+      <Line endX="190.4000244140625" endY="134.00001525878906" layoutX="624.0" layoutY="-114.0" startX="190.4000244140625" startY="114.00000762939453" />
+      <ImageView fx:id="playCurrentButton" fitHeight="21.0" fitWidth="22.0" layoutX="99.0" pickOnBounds="true" preserveRatio="true" styleClass="imageViewButton">
+         <image>
+            <Image url="@images/play.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="462.0" layoutY="1.0" text="Classical Guitar Area" />
+
+   </children>
+</AnchorPane>

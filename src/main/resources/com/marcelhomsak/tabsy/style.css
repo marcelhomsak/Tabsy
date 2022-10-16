@@ -1,0 +1,13 @@
+.white {
+    -fx-focus-traversable: false;
+    -fx-cursor: hand;
+}
+.black {
+    -fx-focus-traversable: false;
+    -fx-cursor: hand;
+    -fx-background-color: #000000
+}
+
+.imageViewButton {
+    -fx-cursor: hand;
+}
