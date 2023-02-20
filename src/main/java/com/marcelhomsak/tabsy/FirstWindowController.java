@@ -6,7 +6,13 @@ import javafx.scene.control.Button;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.net.URL;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
@@ -72,7 +78,7 @@ public class FirstWindowController implements Initializable {
      * This method is called when user presses play button.
      * It plays every note which is current in notes ArrayList
      * (which can change because of {@link #deleteLastNote() deleteLastNote} and {@link #deleteAllNotes() deleteAllNotes})
-     * @throws InterruptedException
+     * @throws InterruptedException Thrown when a thread is waiting, sleeping, or otherwise occupied, and the thread is interrupted, either before or during the activity.
      */
     public void playCurrent() throws InterruptedException {
         for (String note : notes) {
@@ -87,6 +93,25 @@ public class FirstWindowController implements Initializable {
                 System.out.println("Error: " + e);
             }
             Thread.sleep(300);
+        }
+    }
+
+    public void writeTabsToFile() {
+        if (notes.size() > 0) {
+            String home = System.getProperty("user.home");
+            String path = home + File.separator + "tabsy";
+            File directory = new File(path);
+            if (!directory.exists()) {
+                directory.mkdir();
+            }
+            String txtPath = path + File.separator + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd-hh;mm;ss")) + ".txt";
+            File file = new File(txtPath);
+            try (FileWriter fw = new FileWriter(file);
+                 BufferedWriter bw = new BufferedWriter(fw)) {
+                bw.write(Tabs.play(notes));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -131,6 +156,7 @@ public class FirstWindowController implements Initializable {
 
         computeButton.setOnMouseClicked(e -> {
             displayTabs();
+            writeTabsToFile();
         });
 
         playCurrentButton.setOnMouseClicked(e -> {
